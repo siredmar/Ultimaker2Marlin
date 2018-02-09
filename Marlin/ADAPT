@@ -1,0 +1,16 @@
+Adapt the following lines with your settings
+
+Configuration.h
+Line 338, 340, 342
+// Travel limits after homing
+#define X_MAX_POS (=230 default)
+#define Y_MAX_POS (=224.5 default)
+#define Z_MAX_POS (=230 default)
+
+Line 385
+// Length of the bowden tube. Used for the material load/unload procedure.
+#define FILAMANT_BOWDEN_LENGTH (=705 default)
+
+Line 387
+// Length of the extruder from bowden tube end to nozzle 
+#define FILAMENT_EXTRUDER_LENGTH (=50 default)
