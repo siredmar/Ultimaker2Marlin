@@ -203,6 +203,11 @@
     #define  DEFAULT_Ki 2.5
     #define  DEFAULT_Kd 100.0
 
+// Ultimaker2 with E3D HotEnd
+    #define  DEFAULT_Kp 36.59
+    #define  DEFAULT_Ki 3.65
+    #define  DEFAULT_Kd 91.72
+
 // Makergear
 //    #define  DEFAULT_Kp 7.0
 //    #define  DEFAULT_Ki 0.1
@@ -363,9 +368,9 @@ const bool Z_ENDSTOPS_INVERTING = true; // set to true to invert the logic of th
 
 // default settings
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.0,80.0,200,282}  // default steps per unit for ultimaker2
-#define DEFAULT_MAX_FEEDRATE          {300, 300, 40, 45}    // (mm/sec)
-#define DEFAULT_MAX_ACCELERATION      {9000,9000,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for skeinforge 40+, for older versions raise them a lot.
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.0, 80.0, 400.0, 93.0}  // default steps per unit for ultimaker2
+#define DEFAULT_MAX_FEEDRATE          {300,  300,  40,    150}    // (mm/sec)
+#define DEFAULT_MAX_ACCELERATION      {9000, 9000, 100,   9000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for skeinforge 40+, for older versions raise them a lot.
 
 #define DEFAULT_ACCELERATION          3000    // X, Y, Z and E max acceleration in mm/s^2 for printing moves
 #define DEFAULT_RETRACT_ACCELERATION  3000   // X, Y, Z and E max acceleration in mm/s^2 for retracts
@@ -385,7 +390,7 @@ const bool Z_ENDSTOPS_INVERTING = true; // set to true to invert the logic of th
 #define FILAMANT_BOWDEN_LENGTH        705
 
 // Length of the extruder from bowden tube end to nozzle 
-#define FILAMENT_EXTRUDER_LENGTH      50
+#define FILAMENT_EXTRUDER_LENGTH      150
 
 //===========================================================================
 //=============================Additional Features===========================

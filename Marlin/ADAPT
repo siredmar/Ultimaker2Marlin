@@ -14,3 +14,15 @@ Line 385
 Line 387
 // Length of the extruder from bowden tube end to nozzle 
 #define FILAMENT_EXTRUDER_LENGTH (=50 default)
+
+Line 202, 203, 204
+// PID values for Ultimaker2 with E3D HotEnd
+#define  DEFAULT_Kp (=10.0 default, 36.59 for E3D)
+#define  DEFAULT_Ki (=2.5 default, 3.65 for E3D)
+#define  DEFAULT_Kd (=100.00 default, 91.72 for E3D)
+
+Line 371, 372, 373
+#define DEFAULT_AXIS_STEPS_PER_UNIT   (={80.0,80.0,200,282} default) // default steps per unit for ultimaker2
+#define DEFAULT_MAX_FEEDRATE          (={300, 300, 40, 45} default)   // (mm/sec)
+#define DEFAULT_MAX_ACCELERATION      (={9000,9000,100,10000} default)    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for skeinforge 40+, for older versions raise them a lot.
+
