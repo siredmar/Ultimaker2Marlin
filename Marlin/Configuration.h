@@ -199,9 +199,9 @@
     //#define  DEFAULT_Kd 114
 
 // Ultimaker2
-    #define  DEFAULT_Kp 10.0
-    #define  DEFAULT_Ki 2.5
-    #define  DEFAULT_Kd 100.0
+    // #define  DEFAULT_Kp 10.0
+    // #define  DEFAULT_Ki 2.5
+    // #define  DEFAULT_Kd 100.0
 
 // Ultimaker2 with E3D HotEnd
     #define  DEFAULT_Kp 36.59
