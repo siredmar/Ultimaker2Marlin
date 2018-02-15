@@ -390,7 +390,7 @@ const bool Z_ENDSTOPS_INVERTING = true; // set to true to invert the logic of th
 #define FILAMANT_BOWDEN_LENGTH        705
 
 // Length of the extruder from bowden tube end to nozzle 
-#define FILAMENT_EXTRUDER_LENGTH      150
+#define FILAMENT_EXTRUDER_LENGTH      50
 
 //===========================================================================
 //=============================Additional Features===========================
